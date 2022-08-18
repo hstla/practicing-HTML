@@ -8,4 +8,4 @@
 ## summerMusicFestival
 사이트 도면
 
-<img src="https://user-images.githubusercontent.com/83001865/185386923-006fe457-302c-4871-8d43-a65ad088fffc.jpg" width="100px">
+<img src="https://user-images.githubusercontent.com/83001865/185386923-006fe457-302c-4871-8d43-a65ad088fffc.jpg" width="500px">
