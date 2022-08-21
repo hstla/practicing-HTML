@@ -2,6 +2,21 @@ body {
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
 }
+#list{
+  list-style: none;
+  margin: 0;
+}
+#list a{
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 0 10px 0 10px;
+  line-height: 60px;
+}
+#list a:hover{
+  background-color: #eeeeee;
+}
 
 #navbar {
   padding: 0 20px;
