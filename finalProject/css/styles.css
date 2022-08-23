@@ -8,10 +8,87 @@ body {
   font-family: "Helvetica";
 }
 
-/* navbar */
-
+#navbar {
+  padding: 0 30px;
+  overflow: hidden;
+  background-color: white;
+  height: 60px;
+}
+#logo{
+  height: 60px;
+  line-height: 60px;
+}
+#logo img{
+  vertical-align: middle;
+  width: 149px;
+  height: 20px;
+}
+#list{
+  list-style: none;
+  margin: 0;
+}
+#list a{
+  line-height: 60px;
+  float: right;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+}
+#list a:last-child{
+  margin-right: 30px;
+}
 /* hero header */
-
+#background{
+  background-image: url("../images/hero_header.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#subject{
+  text-align: center;
+  margin: 60px 0 60px 0;
+}
+#subject h1{
+  font-size: 24px;
+  color: #545454;
+  font-weight: bold;
+}
 /* products */
+.item-container{
+  width: 740px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.item{
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 80px;
+  float: left;
+  width: 225px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #545454;
+}
+.item:last-child{
+  clear: right;
+}
+.item img{
+  width: 225px;
+  height: 225px;
+}ㄴ
+.item-name{
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
 
-/* footer */
+#link{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+#link img:last-child{
+  margin-right: 10px;
+  margin-left: 10px;
+}
